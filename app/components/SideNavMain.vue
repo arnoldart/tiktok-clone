@@ -1,8 +1,8 @@
 <template>
-    <div 
-        id="SideNavMain"
-        :class="route.fullPath === '/' ? 'lg:w-[310px]' : 'lg-w-[220px]'"
-        class="fixed z-20 bg-white pt-[70px] h-full lg:border-r-0 border-r border-gray-300 w-[75px] overflow-auto"
+    <div
+        id="SideNavMain" 
+        :class="route.fullPath === '/' ? 'lg:w-[310px]' : 'lg:w-[220px]'" 
+        class="fixed z-20 bg-white pt-[70px] h-full lg:border-r-0 border-r w-[75px] overflow-auto" 
     >
         <div class="lg:w-full w-[7t5px] mx-auto">
             <NuxtLink to="/">
